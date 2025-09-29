@@ -1,3 +1,5 @@
+# Rahman ve Rahim Olan Allah'ın Adıyla;
+
 # Turkish Legal Terms Dictionary / Türkçe Hukuki Terimler Sözlüğü
 
 [![Language](https://img.shields.io/badge/language-Turkish-blue.svg)](https://github.com/ibrahimistaken/turkish-legal-terms-dictionary)
@@ -18,7 +20,7 @@ Bu proje, Türkçe hukuki terimlerin ve anlamlarının bulunduğu kapsamlı bir 
 ### 📁 Dosya Yapısı
 
 ```
-├── turkish-legal-terms-dictionary.json.json    # Ana sözlük dosyası
+├── turkish-legal-terms-dictionary.json    # Ana sözlük dosyası
 └── README.md           # Bu dosya
 ```
 
@@ -49,7 +51,7 @@ Bu sözlük, hukuk öğrencileri, avukatlar, hakimler ve hukuki metinlerle çal�
 ```javascript
 // JSON dosyasını okuyarak kullanım
 const fs = require('fs');
-const hukukiSozluk = JSON.parse(fs.readFileSync('turkish-legal-terms-dictionary.json.json', 'utf8'));
+const hukukiSozluk = JSON.parse(fs.readFileSync('turkish-legal-terms-dictionary.json', 'utf8'));
 
 // Belirli bir terimi arama
 function terimAra(arananKelime) {
@@ -67,7 +69,7 @@ console.log(sonuc);
 
 Bu sözlüğe yeni terimler eklemek veya mevcut terimleri düzeltmek için:
 
-1. `turkish-legal-terms-dictionary.json.json` dosyasını düzenleyin
+1. `turkish-legal-terms-dictionary.json` dosyasını düzenleyin
 2. JSON formatını koruyun
 3. Alfabetik sıralamayı göz önünde bulundurun
 
@@ -87,7 +89,7 @@ This project contains a comprehensive dictionary of Turkish legal terms and thei
 ### 📁 File Structure
 
 ```
-├── turkish-legal-terms-dictionary.json.json    # Main dictionary file
+├── turkish-legal-terms-dictionary.json    # Main dictionary file
 └── README.md           # This file
 ```
 
@@ -118,7 +120,7 @@ This dictionary is designed as a useful resource for law students, lawyers, judg
 ```javascript
 // Reading and using the JSON file
 const fs = require('fs');
-const legalDictionary = JSON.parse(fs.readFileSync('turkish-legal-terms-dictionary.json.json', 'utf8'));
+const legalDictionary = JSON.parse(fs.readFileSync('turkish-legal-terms-dictionary.json', 'utf8'));
 
 // Searching for a specific term
 function searchTerm(searchWord) {
@@ -136,7 +138,7 @@ console.log(result);
 
 To add new terms to this dictionary or correct existing terms:
 
-1. Edit the `turkish-legal-terms-dictionary.json.json` file
+1. Edit the `turkish-legal-terms-dictionary.json` file
 2. Maintain the JSON format
 3. Consider alphabetical ordering
 
